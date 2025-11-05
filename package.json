@@ -1,0 +1,38 @@
+{
+  "name": "first-shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.4",
+    "@mui/material-nextjs": "^7.3.3",
+    "@reduxjs/toolkit": "^2.9.1",
+    "i18next": "^25.6.0",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-i18next": "^16.1.2",
+    "react-redux": "^9.2.0",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^8.57.1",
+    "@next/eslint-plugin-next": "^15.5.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8.57.1",
+    "eslint-plugin-unused-imports": "^4.2.0",
+    "sass": "^1.91.0",
+    "typescript": "^5",
+    "typescript-eslint": "^8.41.0"
+  }
+}

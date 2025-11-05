@@ -1,0 +1,17 @@
+.uiСontainer {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    background-color: var(--neutral-2);
+
+
+    &_block {
+        padding: 5px;
+        border: 1px solid var(--neutral-4);
+    }
+}
+
+.color{
+    color: var(--primary);
+}
+
