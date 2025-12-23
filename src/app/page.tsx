@@ -1,9 +1,9 @@
-import UIPages from '@/components/pages/UIPages';
+import Shell from '@/components/Layout/Shell';
 
 export default function Home() {
   return (
-    <>
-      <UIPages />
-    </>
+    <Shell>
+      HOME
+    </Shell>
   );
 }
