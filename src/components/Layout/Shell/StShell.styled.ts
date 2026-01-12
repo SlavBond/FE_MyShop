@@ -16,6 +16,5 @@ export const StShellContent = styled.main`
   flex: 1 1 auto;
   min-width: 0;
   min-height: 0;
-  padding: 16px;
   overflow: auto;
 `;
