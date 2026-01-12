@@ -5,6 +5,8 @@ import UIButton from '@/components/UI/UIButton';
 import UIInput from '@/components/UI/UIInput';
 import { EmailIcon, LockIcon, UserIcon, SearchIcon } from '@/components/UI/UIInput/icons';
 import TabsMain from '@/components/TabsMain/TabsMain';
+import {Icon} from "@/components/UI/UIIcon";
+import {color} from "@mui/system";
 
 const UIPages = () => {
     return (
@@ -39,7 +41,7 @@ const UIPages = () => {
               <UIInput
                 placeholder="Search..."
                 type="text"
-                icon={<SearchIcon/>}
+                icon={<Icon name="search" size={15} style={{color: 'red'}} />}
               />
             </div>
           </div>

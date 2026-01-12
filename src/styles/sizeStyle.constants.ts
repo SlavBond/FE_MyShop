@@ -1,0 +1,1 @@
+export const sizeHeader = '60px';

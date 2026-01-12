@@ -6,8 +6,8 @@ import Header from '../Header';
 const Shell = ({ children }: { children: React.ReactNode }) => {
   return (
     <StShellWrapper>
+      <Header/>
       <StShellBody>
-        <Header/>
         <StShellContent>
           {children}
         </StShellContent>

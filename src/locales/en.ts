@@ -7,4 +7,6 @@ export default {
   'tab.product': 'Продукція',
   'tab.contact_us': 'Контакти',
   // end main tabs
+
+  'ui.cart': 'Кошик'
 };

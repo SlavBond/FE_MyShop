@@ -1,3 +1,10 @@
+# Генерация иконок
+Сохраняем иконку в public/icons/generate и запускаем скрипт "generate:icons": "node scripts/generate-icons.mjs" в package.json,
+после генарации иконка появиться в components/UI/UIIcon/icons в ввиде tsx компонент и будет один API для всех иконок:
+`<Icon name="user" size={20} />`
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
